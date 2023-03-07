@@ -16,6 +16,7 @@ import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock.js';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
+import FontColor from '@ckeditor/ckeditor5-font/src/fontColor';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js';
@@ -121,6 +122,7 @@ DecoupledEditor.builtinPlugins = [
 	Essentials,
 	FontFamily,
 	FontSize,
+	FontColor,
 	Heading,
 	Highlight,
 	HorizontalLine,
@@ -171,6 +173,7 @@ DecoupledEditor.defaultConfig = {
 			'|',
 			'fontsize',
 			'fontfamily',
+			'fontcolor',
 			'|',
 			'bold',
 			'italic',
